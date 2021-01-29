@@ -17,7 +17,7 @@ bar.addEventListener("click",function (){
     if(X.className != "oo") {
         X.classList.remove("aa");
         X.classList.add("oo");
-        bar.innerText = `I`;
+        bar.innerHTML = `<i class="fas fa-times"></i>`;
         menu.style.transform = "rotateY(0deg) translate(0%,0%)";
         menu.style.transition = "transform 500ms 500ms";
         menu.style.opacity = "1";
@@ -25,7 +25,7 @@ bar.addEventListener("click",function (){
     }  else {
         X.classList.add("aa");
         X.classList.remove("oo");
-        bar.innerText = `A`;
+        bar.innerHTML = `<i class="fas fa-bars"></i>`;
         menu.style.transform = "rotateY(90deg) translate(300%,0%)";
         menu.style.transition = "500ms 0s";
         menu.style.opacity = "0";

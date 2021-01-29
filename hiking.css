@@ -169,7 +169,6 @@ nav .menu-search button i {
     letter-spacing: 5px;
     line-height: 7rem;
     font-size:5.6rem;
-    font-weight:500;
     text-transform: uppercase;
     color:#e2b066;
     font-family: 'Meera Inimai', sans-serif;
@@ -1191,8 +1190,8 @@ nav .menu-search button i {
         text-align: center;
         background: rgb(223, 223, 223);
         box-shadow:0px 0px 10px 1px gray;
-        height:65px;
-        width:65px;
+        height:45px;
+        width:45px;
         border-radius: 50px;
         position:absolute;
         right:11%;
@@ -1204,19 +1203,23 @@ nav .menu-search button i {
     nav .menu-bar #X p {
         display: block;
         position:absolute;
-        font-size:4rem;
+        font-size:2.2rem;
         font-family: monospace;
-        height:65px;
-        width:65px;
+        height:42px;
+        width:50px;
         background:rgb(255, 255, 255);
         border-radius: 50px;
         cursor: pointer;
         transition: 1000ms linear;
+        padding:10px 0 0;
         z-index: 2;
+    }
+    nav .menu-bar #X p i {
+        font-size:1.7rem;
     }
     @keyframes oo {
         0% {right:5%;top:50%;}
-        100% {bottom:-75%;right:-40%;transform:translate(0%,45%) rotate(360deg);}
+        100% {bottom:-120%;right:-40%;transform:translate(0%,45%) rotate(360deg);}
     }
     nav .menu-list {
         position:absolute;
